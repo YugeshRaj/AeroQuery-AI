@@ -1,6 +1,6 @@
-# AeroQuery
+# AeroQuery AI
 
-AeroQuery is an intelligent document chatbot built using Retrieval-Augmented Generation (RAG). The application allows users to upload and query PDF documents in natural language, providing context-aware answers based on the content of the documents.
+AeroQuery AI is an intelligent document chatbot built using Retrieval-Augmented Generation (RAG). The application allows users to upload and query PDF documents in natural language, providing context-aware answers based on the content of the documents.
 
 The system processes PDF files, splits them into semantic chunks, generates embeddings using Sentence Transformers, and stores them in a FAISS vector database for efficient similarity search. When a user asks a question, the most relevant document chunks are retrieved and provided to a Large Language Model (LLM) through Groq for accurate and context-grounded responses.
 
